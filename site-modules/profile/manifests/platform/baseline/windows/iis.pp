@@ -1,9 +1,5 @@
 class profile::platform::baseline::windows::iis {
 
-  dism { 'IIS-WebServer':
-    ensure => present,
-    answer => 'c:/answer/iis.xml',
-  }
   # Create Directories
 
   $iis_features = ['Web-WebServer','Web-Scripting-Tools']
