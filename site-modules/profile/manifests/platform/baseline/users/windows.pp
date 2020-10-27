@@ -1,4 +1,4 @@
-class profile::platform::baseline::users::windows {
+class profile::manifests::platform::baseline::users::windows {
 
   # Local user accounts
   user { 'Sample Windows User':
