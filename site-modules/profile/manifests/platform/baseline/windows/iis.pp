@@ -2,8 +2,8 @@ class profile::platform::baseline::windows::iis {
 
   dism { 'IIS-WebServer':
     ensure => present,
-    answer => 'C:\answer\iis.xml',
   }
+  
   iis_application_pool { 'minimal_site_app_pool':
     ensure                  => 'present',
     state                   => 'started',
