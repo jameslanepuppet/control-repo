@@ -31,3 +31,5 @@ class profile::platform::baseline::windows::iis {
   file { 'minimal':
     ensure => 'directory',
     path 
+  }
+}
