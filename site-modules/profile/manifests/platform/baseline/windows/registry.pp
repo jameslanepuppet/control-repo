@@ -7,4 +7,4 @@ class profile::platform::baseline::windows::registry {
     data  => '1',
     type  => 'dword',
   }
-
+}
