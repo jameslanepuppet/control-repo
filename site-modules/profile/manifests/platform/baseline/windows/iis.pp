@@ -11,10 +11,10 @@ class profile::platform::baseline::windows::iis {
   iis_feature { $iis_features:
     ensure => 'present',
   }
-  
+
   iis_site { 'minimal':
     ensure          => 'started',
-    physicalpath    => 'c:\\inetpub\\minimal',
+    physicalpath    => 'c:/inetpub/minimal',
     applicationpool => 'DefaultAppPool',
     require         => [
       File['minimal'],
@@ -24,6 +24,6 @@ class profile::platform::baseline::windows::iis {
 
   file { 'minimal':
     ensure => 'directory',
-    path   => 'c:\\inetpub\\minimal',
+    path   => 'c:/inetpub/minimal',
   }
 }
