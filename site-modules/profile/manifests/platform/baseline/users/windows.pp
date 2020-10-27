@@ -1,4 +1,4 @@
-class profile::manifests::platform::baseline::users::windows {
+class profile::platform::baseline::users::windows {
 
   # Local user accounts
   user { 'Sample Windows User':
@@ -10,5 +10,5 @@ class profile::manifests::platform::baseline::users::windows {
   local_security_policy {‘Log on as a service’:
     ensure => ‘present’,
     policy_value => 'Administrators',
-}
+  }
 }
