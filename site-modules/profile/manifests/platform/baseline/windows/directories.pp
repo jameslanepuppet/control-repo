@@ -8,7 +8,7 @@ class profile::platform::baseline::windows::directories {
   
   acl { 'c:\users\public\test':
     permissions => [
-    { identity => 'Administrator', rights => ['read'] },
+    { identity => 'Administrators', rights => ['read'] },
     { identity => 'Users', rights => ['read','execute'] }
   } 
 }
