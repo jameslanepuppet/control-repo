@@ -3,12 +3,12 @@
 
 class profile::platform::baseline::windows::packages {
 
-  Package {
-    ensure   => 'present',
-    provider => chocolatey,
-  }
+require ::chocolatey
 
-  package { '7zip': }
+  package { '7zip':
+  ensure   => installed,
+  provider => 'chocolatey',
+  }
 
   reboot { 'after':
     subscribe       => Package['7zip'],
