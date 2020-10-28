@@ -20,12 +20,12 @@ control-repo/
 │           ├── platform                      # Platform specefic 
 │               ├── baseline                  # baseslines for platform specefic manifests
 │               │    ├── windows               # windows specefic manifests
-│               │    │    ├── directories.pp   #
-│               │    │    ├── iis.pp           #
-│               │    │    ├── packages.pp      #
-│               │    │    ├── registry.pp      #
+│               │    │    ├── directories.pp   # creates new directory and sets permissions via ACL module
+│               │    │    ├── iis.pp           # creates IIS server
+│               │    │    ├── packages.pp      # manages packages 
+│               │    │    ├── registry.pp      # manages registrys
 │               │    ├── users                 # user specefic manifests
-│               │         ├── windows.pp       #
+│               │         ├── windows.pp       # specifes what to apply based on Windows version
 │               │    
 │               ├── windows.pp            #          
 ├── LICENSE 
