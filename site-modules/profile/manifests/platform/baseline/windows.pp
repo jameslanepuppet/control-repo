@@ -6,4 +6,3 @@ class profile::platform::baseline::windows {
   include ::profile::platform::baseline::windows::iis
   include ::profile::platform::baseline::windows::packages
 }
- 
