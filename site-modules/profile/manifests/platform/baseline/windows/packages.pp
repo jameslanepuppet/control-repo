@@ -1,3 +1,6 @@
+#Requires puppetlabs-chocolately
+#Requires puppetlabs-reboots
+
 class profile::platform::baseline::windows::packages {
 
   Package {
@@ -7,4 +10,7 @@ class profile::platform::baseline::windows::packages {
 
   package { '7zip': }
 
+  reboot { 'after':
+    subscribe       => Package['7zip'],
+  }
 }
