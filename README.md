@@ -4,6 +4,11 @@ Here's a visual representation of the structure of this repository:
 
 All code contains comments with what module is required
 
+Code tested on latest Puppet release (2019.8.1) in an enviroment consisting of a 'windows' node group with two nodes:
+
+- Windows Server 2012 R2 (x64)
+- Windows 10 Enterprise 2015 lts (x64)
+
 ```
 control-repo/
 ├── data/                                 # Hiera data directory.
