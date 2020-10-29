@@ -1,3 +1,6 @@
+# Requires mod puppetlabs-dism
+# Requires mod puppetlabs-iis
+
 class profile::platform::baseline::windows::iis {
 
   # Create Directories
@@ -8,7 +11,7 @@ class profile::platform::baseline::windows::iis {
     ensure => 'present',
   }
 
-# Delete the default website to prevent a port binding conflict.
+  # Delete the default website to prevent a port binding conflict.
   iis_site {'Default Web Site':
     ensure  => absent,
     require => Iis_feature['Web-WebServer'],

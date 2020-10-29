@@ -1,3 +1,5 @@
+# Requires puppetlabs-acl
+
 class profile::platform::baseline::windows::directories {
 
    file { 'c:/users/public/test':

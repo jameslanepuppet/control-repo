@@ -2,6 +2,8 @@
 
 Here's a visual representation of the structure of this repository:
 
+All code contains comments with what module is required
+
 ```
 control-repo/
 ├── data/                                 # Hiera data directory.
@@ -17,17 +19,17 @@ control-repo/
 │   ├── profile/                          # The profile module.
 │   │
 │   ├── manifests
-│           ├── platform                      # Platform specefic 
+│           ├── platform                      # 
 │               ├── baseline                  # baseslines for platform specefic manifests
 │               │    ├── windows               # windows specefic manifests
-│               │    │    ├── directories.pp   # creates new directory and sets permissions via ACL module
+│               │    │    ├── directories.pp   # creates new directory and sets permissions
 │               │    │    ├── iis.pp           # creates IIS server
 │               │    │    ├── packages.pp      # manages packages 
 │               │    │    ├── registry.pp      # manages registrys
 │               │    ├── users                 # user specefic manifests
 │               │         ├── windows.pp       # specifes what to apply based on Windows version
 │               │    
-│               ├── windows.pp            #          
+│               ├── windows.pp            # Uses logic to apply different classes based on OS (I.e Windows Server)        
 ├── LICENSE 
 ├── Puppetfile                            # A list of external Puppet modules to deploy with an environment.
 ├── README.md

@@ -1,4 +1,4 @@
-#requires puppetlabs/registry
+# Requires puppetlabs-registry
 
 class profile::platform::baseline::windows::registry {
   

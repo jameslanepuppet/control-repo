@@ -1,3 +1,5 @@
+# Requires ayohrling-local_security_policy
+
 class profile::platform::baseline::users::windows {
 
   # Local user accounts

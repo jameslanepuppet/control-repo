@@ -1,5 +1,5 @@
-#Requires puppetlabs-chocolately
-#Requires puppetlabs-reboots
+# Requires puppetlabs-chocolately
+# Requires puppetlabs-reboots
 
 class profile::platform::baseline::windows::packages {
 
