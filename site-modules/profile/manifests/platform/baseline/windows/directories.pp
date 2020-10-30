@@ -2,7 +2,7 @@
 
 class profile::platform::baseline::windows::directories {
 
-   file { 'c:/users/public/test':
+    file { 'c:/users/public/test':
     ensure => 'directory',
     owner  => 'Sample Windows User',
     group  => 'Administrators',
