@@ -6,6 +6,7 @@ class profile::platform::baseline::windows::directories {
     ensure => 'directory',
     owner  => 'Sample Windows User',
     group  => 'Administrators',
+    requires   => User['Sample Windows User'],
   }
   
   acl { 'c:/users/public/test':
