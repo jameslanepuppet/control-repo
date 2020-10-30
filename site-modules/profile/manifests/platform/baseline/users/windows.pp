@@ -11,7 +11,7 @@ class profile::platform::baseline::users::windows {
 
   # Allow log as a service right
   local_security_policy { 'Log on as a service':
-    ensure => present,
+    ensure       => present,
     policy_value => 'Administrators',
   }
 }
