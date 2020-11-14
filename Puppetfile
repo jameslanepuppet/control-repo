@@ -18,6 +18,10 @@ mod 'puppetlabs-powershell', '4.0.0'
 #mod 'puppetlabs-cisco_ios', '1.2.0'
 
 # Modules from Git
+
+mod 'nessus_agent_tasks',
+:git => 'https://github.com/kinners00/nessus_agent_tasks'
+
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
