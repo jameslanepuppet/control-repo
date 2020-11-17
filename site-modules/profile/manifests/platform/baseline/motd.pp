@@ -1,4 +1,4 @@
-class profile::platform::baseline::::motd {
+class profile::platform::baseline::motd {
   $motd = @("MOTD"/L)
     ===========================================================
 
