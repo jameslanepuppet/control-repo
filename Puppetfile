@@ -39,7 +39,7 @@ mod 'nessus_agent_tasks',
 
 mod 'rsan',
 :git => 'git@github.com:MartyEwings/RSAN.git', 
-:branch => 'jameslanepuppet'
+:branch => 'main'
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
