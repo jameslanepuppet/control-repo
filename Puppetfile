@@ -2,8 +2,8 @@ forge 'https://forge.puppet.com'
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
-mod 'puppetlabs/inifile', '3.0.0'
-mod 'puppetlabs/stdlib',  '6.0.0'
+mod 'puppetlabs-inifile', '3.0.0'
+mod 'puppetlabs-stdlib',  '6.0.0'
 mod 'ayohrling-local_security_policy', '0.7.2'
 mod 'puppetlabs-acl', '3.2.0'
 mod 'puppetlabs-registry', '3.1.1'
