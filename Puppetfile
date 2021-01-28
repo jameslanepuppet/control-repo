@@ -26,6 +26,7 @@ mod 'puppetlabs-apt', '7.7.0'
 mod 'puppet-telegraf', '3.1.0'
 mod 'puppetlabs-inifile', '4.4.0'
 mod 'puppetlabs-puppetserver_gem', '1.1.1'
+mod 'fervid-secure_linux_cis', '2.1.17'
 
 
 #mod 'puppetlabs/concat',  '6.0.0'
