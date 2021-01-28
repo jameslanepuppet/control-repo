@@ -66,6 +66,7 @@ mod 'puppet-logrotate', '5.0.0'
 mod 'puppetlabs-firewall', '2.8.0'
 mod 'puppetlabs-mailalias_core', '1.0.6'
 mod 'puppetlabs-mount_core', '1.0.4'
+mod 'camptocamp-kmod', '2.5.0'
 
 
 
