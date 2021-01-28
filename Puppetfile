@@ -49,3 +49,31 @@ mod 'rsan',
 #mod 'apache',
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  branch: 'docs_experiment'
+
+#CIS Module Dependencies
+mod 'aboe-chrony', '0.3.2'
+mod 'camptocamp-augeas', '1.9.0'
+mod 'camptocamp-kmod', '2.5.0'
+mod 'camptocamp-postfix', '1.11.0'
+mod 'herculesteam-augeasproviders_grub', '3.2.0'
+mod 'herculesteam-augeasproviders_sysctl', '2.6.0'
+mod 'herculesteam-augeasproviders_pam', '2.2.1'
+mod 'kemra102-auditd', '2.2.0'
+mod 'puppet-alternatives', '3.0.0'
+mod 'puppet-cron', '2.0.0'
+mod 'puppet-firewalld', '4.4.0'
+mod 'puppet-logrotate', '5.0.0'
+mod 'puppetlabs-firewall', '2.8.0'
+mod 'puppetlabs-mailalias_core', '1.0.6'
+mod 'puppetlabs-mount_core', '1.0.4'
+
+
+
+
+
+
+
+
+
+
+
