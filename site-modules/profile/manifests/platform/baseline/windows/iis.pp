@@ -1,7 +1,7 @@
 # Requires mod puppetlabs-dism
 # Requires mod puppetlabs-iis
 
-class profile::platform::baseline::windows::iis {
+class profile::platform::baseline::windows::iis { 
 
   # Create Directories
 
